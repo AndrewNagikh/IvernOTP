@@ -1,0 +1,248 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
+
+section {
+    background-image: url(../img/backgroundHome.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-xl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.728);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.skinName {
+    font-family: "BeaufortforLOL-Bold" !important;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.728);
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 1.12;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
+
+.title {
+    font-family: "BeaufortforLOL-Bold" !important;
+    font-size: 40px;
+    padding: 10px;
+    line-height: 1.12;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    color: rgb(199, 150, 43);
+    font-style: italic;
+    text-align: center;
+}
+
+.underTitleLine {
+    width: 80%;
+    height: 2px;
+    background-color: rgb(199, 150, 43);
+}
+
+.diff_role_story {
+    color: #fff;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.role_diff {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.story {
+    font-family: "BeaufortforLOL-Bold" !important;
+    font-weight: 400;
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.role {
+    font-family: "BeaufortforLOL-Bold" !important;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+}
+
+.diff {
+    font-family: "BeaufortforLOL-Bold" !important;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+}
+
+.diffDecs {
+    font-family: "BeaufortforLOL-Bold" !important;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.spellsTitle {
+    font-family: "BeaufortforLOL-Bold" !important;
+    font-size: 40px;
+    padding: 10px;
+    line-height: 1.12;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    color: rgb(199, 150, 43);
+    font-style: italic;
+}
+
+.spells {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.spellViewBlock {
+    padding: 20px;
+}
+
+.spell {
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+}
+
+.spell.active_spell {
+    transition: 0.3s ease-in;
+    display: flex;
+}
+
+.spellDisc {
+    width: 40%;
+    font-family: "BeaufortforLOL-Bold" !important;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.video {
+    object-fit: cover;
+    object-position: center ;
+    width: 50%;
+    height: 300px;
+}
+
+.spellImg {
+    padding: 3px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+}
+
+.spellImg.activeSpellImg {
+    transition: 0.3s ease-in-out;
+    border: 3px solid rgb(199, 150, 43);;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .diff_role_story{
+        flex-direction: column;
+    }
+    .role_diff {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .story {
+        width: 100%;
+    }
+    .tagImg {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .role_diff {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .title {
+        font-size: 30px;
+    }
+    .role, .diff {
+        font-size: 25px;
+    }
+    .diffDecs {
+        font-size: 20px;
+    }
+    .story {
+        font-size: 20px;
+    }
+    .tagImg {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .spell {
+        flex-direction: column;
+    }
+    .video {
+        width: 90%;
+    }
+    .spellDisc {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .video {
+        width: 90%;
+        height: 200px;
+    }
+    
+    .spellImg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .spellDisc {
+        font-size: 15px;
+    }
+    .story {
+        font-size: 15px;
+    }
+}

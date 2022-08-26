@@ -1,0 +1,132 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
+
+.profilePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-xl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.728);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.noAcc {
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(199, 150, 43);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.summonerInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.regionSelect {
+    width: 20%;
+}
+
+.summonerName {
+    width: 70%;
+}
+
+.gameHistory {
+    width: 80%;
+}
+
+.matchCard {
+    font-family: 'BeaufortforLOL-Bold';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+.gameInfo {
+    width: 10%;
+}
+
+.gameChampion {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.item.haveNoItem {
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.58);
+}
+
+.itemImg {
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+.participants {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.team {
+    margin-right: 10px;
+    width: 40%;
+}
+
+.part {
+    display: flex;
+    font-size: 14px !important;
+    align-items: center;
+}
+
+.partName {
+    margin: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.partImg {
+    width: 22px;
+    height: 22px;
+    /* margin-right: 5px; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
